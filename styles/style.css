@@ -4,6 +4,39 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    width: 1440px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #562EFF;
+    height: 94px;
+}
+.banner-logo{
+    margin-left: 285px;
+    display: flex;
+    align-items: center;
+}
+.banner-logo img{
+    width: 40px;
+    height: 51px;
+}
+.banner-logo span{
+    margin-left: 15px;
+    width: 54px;
+    height: 36px;
+    color: #FFFFFF;
+}
+.banner-button{
+    display: flex;
+    align-items: center;
+    margin-right: 290px;
+}
+.banner-links a{
+    text-decoration: none;
+    margin-right: 36px;
+    color: #FFFFFF;
 }
 main{
     display: flex;
@@ -64,7 +97,10 @@ hr{
     height: 117px;
 }
 .blog-info{
+    display: flex;
+    flex-direction: column; 
     margin-left: 16px;
+    
 }
 .blog-title{
     font-size: 20px;
@@ -74,6 +110,7 @@ hr{
 .blog-author{
     color: #9F9F9F;
     font-size: 16px;
+    font-weight: 400;
 }
 .blog-author a{
     text-decoration: none;
