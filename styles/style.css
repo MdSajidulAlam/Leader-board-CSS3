@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /* base style */
 body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
-    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .banner{
     display: flex;
@@ -14,7 +19,7 @@ body{
     height: 94px;
 }
 .banner-logo{
-    margin-left: 285px;
+    margin-left: 138px;
     display: flex;
     align-items: center;
 }
@@ -31,7 +36,7 @@ body{
 .banner-button{
     display: flex;
     align-items: center;
-    margin-right: 290px;
+    margin-right: 140px;
 }
 .banner-links a{
     text-decoration: none;
@@ -103,11 +108,14 @@ hr{
     
 }
 .blog-title{
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
 }
 .blog-author{
+    margin-top: 0;
     color: #9F9F9F;
     font-size: 16px;
     font-weight: 400;
@@ -135,6 +143,14 @@ hr{
     width: 220px;
     font-size: 20px;
     line-height: 23px;
+}
+#walter-scott{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Read-Krakoff{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .course-info{
     width: 230px;
